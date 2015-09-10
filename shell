@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -p 3005:80 -v `pwd`:/docker -w /docker --rm -it noflo-ui /bin/bash
